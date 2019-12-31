@@ -53,7 +53,8 @@ AM_COND_IF([HAVE_DOXYGEN], [AC_CONFIG_FILES([docs/Makefile])])
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_FILES([Makefile
                  src/Makefile
-                 src/hm/Makefile])
+                 src/hm/Makefile
+                 tests/Makefile])
 AC_OUTPUT
 
 echo "

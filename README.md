@@ -18,7 +18,7 @@ A not-so-simple development template contains:
 # Build
 
 ```bash
-autoreconf -i; ./configure; make; sudo make install
+autoreconf -i; ./configure; make; make check; sudo make install;
 ```
 
 # Documentation
@@ -27,6 +27,3 @@ autoreconf -i; ./configure; make; sudo make install
 
 * docs/UserManual.md: User Manual.
 
-# TODO
-
-* Add some tests.
